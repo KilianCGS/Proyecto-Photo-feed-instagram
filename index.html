@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poción mágica</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <!-- Fondo fijo -->
+  <div class="fondo"></div>
+
+  <!-- Header -->
+  <header class="encabezado">
+    CREA TU PROPIA POCIÓN MÁGICA
+  </header>
+
+  <main class="contenedor-principal">
+
+    <!-- Barra lateral -->
+    <aside class="barra-lateral">
+      <h2>Categorías</h2>
+      <button class="boton-categoria" data-categoria="hierbas">Hierbas</button>
+      <button class="boton-categoria" data-categoria="polvos">Polvos</button>
+      <button class="boton-categoria" data-categoria="liquidos">Líquidos</button>
+    </aside>
+
+    <!-- Zona de ingredientes -->
+    <section class="seccion-ingredientes">
+
+      <!-- Vista: lista o grid -->
+      <div class="encabezado-vista">
+        <h2 id="current-category">Mezcla ingredientes en el caldero y veamos qué ocurre</h2>
+        <div>
+          <button id="view-list" class="boton-vista">Lista</button>
+          <button id="view-grid" class="boton-vista">Grid</button>
+        </div>
+      </div>
+
+      <!-- Contenedor dinámico de ingredientes -->
+      <div id="ingredient-list" class="grid-ingredientes">
+        <!-- Ingredientes se insertan aquí vía JS -->
+      </div>
+
+      <!-- Caldero y resultado -->
+      <div class="contenedor-caldero">
+        <div id="result" class="caldero">
+          🧪 Selecciona 3 ingredientes (1 de cada categoría)
+          <div class="caldero-pata izquierda"></div>
+          <div class="caldero-pata derecha"></div>
+        </div>
+        <button id="mix-btn" class="boton-mezclar">Mezclar</button>
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
