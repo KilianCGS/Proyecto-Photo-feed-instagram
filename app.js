@@ -1,6 +1,6 @@
 const ingredientes = {
   hierbas: [
-    { nombre: "Belladona", desc: "Hierba extremadamente peligrosa y venenosa...", img: "https://i0.wp.com/thedruidscauldron.net/wp-content/uploads/2025/02/Gherardo_Cibo_-_Atropa_belladonna_or_Atropa_bella-donna_from_Paintings_of_Flora_of_the_Roman_Sta_-_MeisterDrucke-1354809.jpg?resize=698%2C1024&ssl=1" },
+    { nombre: "Belladona", desc: "Hierba extremadamente venenosa...", img: "https://i0.wp.com/thedruidscauldron.net/wp-content/uploads/2025/02/Gherardo_Cibo_-_Atropa_belladonna_or_Atropa_bella-donna_from_Paintings_of_Flora_of_the_Roman_Sta_-_MeisterDrucke-1354809.jpg?resize=698%2C1024&ssl=1" },
     { nombre: "Mandrágora", desc: "Raíz mística con propiedades mágicas...", img: "https://i.pinimg.com/736x/8d/bc/5a/8dbc5a55fe71a0eaa14b8906d91ed5c7.jpg" },
     { nombre: "Orquídea de sangre", desc: "Flor rara y mística...", img: "https://png.pngtree.com/thumb_back/fh260/background/20250708/pngtree-a-vibrant-glowing-orchid-with-fiery-red-and-orange-lines-set-image_17484072.webp" }
   ],
@@ -12,7 +12,7 @@ const ingredientes = {
   liquidos: [
     { nombre: "Aceite", desc: "Líquido denso y altamente inflamable...", img: "https://i.ibb.co/WNxP93KY/8e4cab64-4599-46d0-97b9-f239545a9d6c.png" },
     { nombre: "Agua", desc: "Líquido transparente, puro y esencial...", img: "https://i.pinimg.com/originals/22/09/19/220919658e87c78f4c5c820c4f517869.jpg" },
-    { nombre: "Miel", desc: "Sustancia dulce, viscosa y altamente nutritiva...", img: "https://cdn.pixabay.com/photo/2024/04/06/23/33/ai-generated-8680176_960_720.png" }
+    { nombre: "Miel", desc: "Sustancia dulce y altamente nutritiva...", img: "https://cdn.pixabay.com/photo/2024/04/06/23/33/ai-generated-8680176_960_720.png" }
   ]
 };
 
